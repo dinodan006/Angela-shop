@@ -1,0 +1,117 @@
+html {
+    background-color: rgba(0, 140, 255, 0.884);
+}
+
+body {
+    width: 750px;
+    height: 750px;
+    margin: auto;
+}
+
+header {
+    width: 750px;
+    height: 250px;
+    background-color: aqua;
+}
+
+nav {
+    width: 750px;
+    height: 50px;
+    background-color: rgb(0, 255, 55);
+}
+
+main {
+    width: 750px;
+    height: 400px;
+    background-color: rgb(255, 0, 212);
+}
+
+footer {
+    width: 750px;
+    height: 50px;
+    background-color: rgb(250, 246, 3);
+}
+
+
+
+section#banner {
+    width: 500px;
+    height: 250px;
+    float: left;
+    background-color: red;
+}
+
+section#logo {
+    width: 250px;
+    height: 125px;
+    float: left;
+    background-color: rgb(255, 153, 0);
+}
+
+section#login {
+    width: 250px;
+    height: 125px;
+    float: left;
+    background-color: rgb(0, 26, 255);
+}
+
+aside#left {
+    width: 150px;
+    height: 400px;
+    float: left;
+    background-color: rgba(225, 0, 255, 0.993);
+}
+
+article {
+    width: 500px;
+    height: 400px;
+    float: left;
+    background-color: grey;
+}
+
+aside#right {
+    width: 100px;
+    height: 400px;
+    float: left;
+    background-color: rgb(255, 0, 128);
+}
+
+.clase1 {
+    color: rgb(236, 228, 228);
+    font-size: 20px;
+
+}
+
+.contenedor {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+h1 {
+    position: relative;
+    float: left;
+    left: 100px;
+}
+
+img {
+    position: relative;
+    float: none;
+    top: 50px;
+    right: 70px;
+}
+
+button {
+    background: rgb(97, 0, 153);
+    color: white;
+}
+
+button:hover {
+    background: aquamarine;
+    color: brown;
+}
+
+button:active {
+    background: fuchsia;
+}
